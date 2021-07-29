@@ -1,0 +1,13 @@
+1.首先来设置使用Git时的姓名和邮箱地址:
+$ git config --global user.name "user name"
+$ git config --global user.email "mail address"
+
+2.设置SSH Key
+运行下面的命令来创建SSH Key
+$ ssh-keygen -t rsa -C "your_email@example.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key   直接按回车键
+Enter passphrase:直接按回车键
+Enter same passphrase again:直接按回车键
+
+3.在GitHub中添加公开密钥，今后就可以用私有密钥进行认证了
