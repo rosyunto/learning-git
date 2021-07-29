@@ -11,3 +11,5 @@ Enter passphrase:直接按回车键
 Enter same passphrase again:直接按回车键
 
 3.在GitHub中添加公开密钥，今后就可以用私有密钥进行认证了
+点击右上角的账户设定按钮，选择SSH keys菜单后添加密钥，拷贝id-rsa.pub里面的内容
+
