@@ -2,3 +2,5 @@
 2.git status--查看仓库状态
 3.git add--像缓存区中添加文件
   git add "基本操作.txt"
+  git commit -m "添加comment"
+  git push
